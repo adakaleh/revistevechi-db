@@ -12,4 +12,5 @@ sqlite3 arhiva_reviste.db .schema > schema.sql
 sqlite3 arhiva_reviste.db .dump > dump.sql
 grep -vx -f schema.sql dump.sql > data.sql
 rm dump.sql
+sed -i 's/PRAGMA foreign_keys=OFF;/PRAGMA foreign_keys=ON;/g' data.sql
 ```
