@@ -8,24 +8,6 @@ CREATE TABLE "reviste" (
 	`link_oficial`	TEXT,
 	`observatii`	TEXT
 );
-CREATE TABLE "articole" (
-	`articol_id`	INTEGER PRIMARY KEY AUTOINCREMENT,
-	`revista_id`	INTEGER NOT NULL,
-	`revista_nume`	TEXT NOT NULL,
-	`editie_id`	INTEGER NOT NULL,
-	`editie_an`	INTEGER NOT NULL,
-	`editie_luna`	INTEGER NOT NULL,
-	`editie_luna_sfarsit`	TEXT,
-	`editie_numar`	INTEGER NOT NULL,
-	`pg_toc`	INTEGER,
-	`pg_count`	INTEGER,
-	`rubrica`	TEXT,
-	`titlu`	TEXT,
-	`joc_platforma`	TEXT,
-	`autor`	TEXT,
-	`nota`	TEXT,
-	FOREIGN KEY(`editie_id`) REFERENCES `editii`(`editie_id`)
-);
 CREATE TABLE "editii" (
 	`editie_id`	INTEGER PRIMARY KEY AUTOINCREMENT,
 	`revista_id`	INTEGER NOT NULL,
@@ -53,5 +35,23 @@ CREATE TABLE "downloads" (
 	`categorie`	TEXT NOT NULL DEFAULT 'revista',
 	`item`	INTEGER,
 	`link`	TEXT,
+	FOREIGN KEY(`editie_id`) REFERENCES `editii`(`editie_id`)
+);
+CREATE TABLE "articole" (
+	`articol_id`	INTEGER PRIMARY KEY AUTOINCREMENT,
+	`revista_id`	INTEGER NOT NULL,
+	`revista_nume`	TEXT NOT NULL,
+	`editie_id`	INTEGER NOT NULL,
+	`editie_an`	INTEGER NOT NULL,
+	`editie_luna`	INTEGER NOT NULL,
+	`editie_luna_sfarsit`	TEXT,
+	`editie_numar`	INTEGER NOT NULL,
+	`pg_toc`	INTEGER,
+	`pg_count`	INTEGER,
+	`rubrica`	TEXT,
+	`titlu`	TEXT,
+	`joc_platforma`	TEXT,
+	`autor`	TEXT,
+	`nota`	TEXT,
 	FOREIGN KEY(`editie_id`) REFERENCES `editii`(`editie_id`)
 );
