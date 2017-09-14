@@ -64,6 +64,10 @@ toate_revistele = c.execute("SELECT * FROM editii WHERE revista_id = 7 and editi
 
 for e in toate_revistele:
 
+    # sari peste revistele care nu au numar
+    if e["numar"] == "":
+        continue
+
     contribuie = ""
     if e["scan_info_observatii"]:
         contribuie = "\n<color red>--- //" + e["scan_info_observatii"] + ". Vă rugăm să [[:contribuie|contribuiți]].// ---</color>\n"
