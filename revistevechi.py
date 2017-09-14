@@ -59,8 +59,7 @@ def get_downloads(editie_id, categorie):
     return sorted(downloads, key=operator.itemgetter("prioritate"))
 
 
-
-toate_revistele = c.execute("SELECT * FROM editii WHERE revista_id = 7 and editie_id = 9;")  # TODO: test 44
+toate_revistele = conn.cursor().execute("SELECT * FROM editii WHERE revista_id = 7;")
 
 for e in toate_revistele:
 
@@ -114,7 +113,7 @@ for e in toate_revistele:
     ### download CD/DVD ###
 
     link_cuprins_disc_demo = ""
-    c.execute("SELECT pg_toc FROM articole WHERE editie_id = ? AND rubrica = 'Cuprins CD/DVD';" , str(e["editie_id"]))
+    c.execute("SELECT pg_toc FROM articole WHERE editie_id = ? AND rubrica = 'Cuprins CD/DVD';", (e["editie_id"], ))
     pagina = c.fetchone()
     if pagina:
         pagina = pagina["pg_toc"]
@@ -141,7 +140,7 @@ for e in toate_revistele:
     ### lista redactori ###
 
     lista_redactori = ""
-    for r in c.execute("SELECT autor, count() nr_articole FROM articole WHERE editie_id = ? GROUP BY autor;", str(e["editie_id"])):
+    for r in c.execute("SELECT autor, count() nr_articole FROM articole WHERE editie_id = ? GROUP BY autor;", (e["editie_id"], )):
         if r["autor"]:
             ancora = genereaza_ancora(r["autor"])
             lista_redactori += "\n  * [[level:redactori#%s|%s]] (%s articole)" % (ancora, r["autor"], r["nr_articole"])
@@ -153,7 +152,7 @@ for e in toate_revistele:
 
     cuprins = ""
     categorie = ""
-    for cup in c.execute("SELECT * FROM articole WHERE editie_id = ? ORDER BY pg_toc;", str(e["editie_id"])):
+    for cup in c.execute("SELECT * FROM articole WHERE editie_id = ? ORDER BY pg_toc;", (e["editie_id"], )):
 
         if cup["rubrica"] == "Cuprins CD/DVD":
             continue
@@ -198,6 +197,5 @@ for e in toate_revistele:
         lista_redactori = lista_redactori,
         cuprins = cuprins,
     ))
-    break
 
     # TODO: genereaza fisiere
