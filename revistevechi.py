@@ -4,10 +4,20 @@ import sqlite3
 from string import Template
 import re
 import operator
+import os
+
+if not os.path.isdir("level"):
+    os.mkdir("level")
 
 conn = sqlite3.connect("arhiva_reviste.db")
 conn.row_factory = sqlite3.Row
 c = conn.cursor()
+
+pagina_principala = """https://revistevechi.blogspot.ro/2011/07/level-1997-2004-colectia-de-reviste.html
+
+https://mega.nz/#F!SxckBRQa!AZl0AUzjFQvg0AED2iWDBA
+
+"""
 
 template = Template("""====== LEVEL nr. $numar ($luna $an) ======
 $contribuie
@@ -39,6 +49,10 @@ luna = {
 def genereaza_ancora(string):
     return re.sub('[^A-z0-9 -]', '', string).lower().replace(" ", "_")
 
+# face ca un string care contine caractere precum "|" si "^" sa poata fi inclus intr-un tabel
+def in_tabel(string):
+    return string.replace("|", "%%|%%").replace("^", "%%^%%")
+
 # transofrma un cursor.fetchall() intr-o lista de dict-uri
 def dictfetchall(cursor):
     return [dict(zip([col[0] for col in cursor.description], row)) for row in cursor.fetchall()]
@@ -59,13 +73,26 @@ def get_downloads(editie_id, categorie):
     return sorted(downloads, key=operator.itemgetter("prioritate"))
 
 
-toate_revistele = conn.cursor().execute("SELECT * FROM editii WHERE revista_id = 7;")
+# TODO: suplimente?
+toate_revistele = conn.cursor().execute("SELECT * FROM editii WHERE tip = 'revista' AND revista_id = 7 ORDER BY an;")
 
 for e in toate_revistele:
+
+    # construieste pagina principala
+    header_an = "\n\n===== %d =====\n\n" % e["an"]
+    if header_an not in pagina_principala:
+        pagina_principala += header_an
+
+    # TODO: tabel
+    pagina_principala += "[[level:%d:%d]], " % (e["an"], e["luna"])
 
     # sari peste revistele care nu au numar
     if e["numar"] == "":
         continue
+
+    # creeaza directoare
+    if not os.path.isdir("level/%d" % e["an"]):
+        os.mkdir("level/%d" % e["an"])
 
     contribuie = ""
     if e["scan_info_observatii"]:
@@ -79,7 +106,7 @@ for e in toate_revistele:
     disc_demo = ""
     if e["disc_demo"] not in (None, ""):
         img_disc = ":level:%d:%d:level_disc_%d.png" % (e["an"], e["luna"], e["numar"])
-        disc_demo = "\n| **Disc demo** | 1 " + e["disc_demo"] + " {{" + img_disc + "?direct&20}}|"
+        disc_demo = "\n| **Disc demo** | " + e["disc_demo"] + " {{" + img_disc + "?direct&20}}|" # TODO: daca sunt mai multe discuri?
 
     joc_complet = ""
     if e["joc_complet"] not in (None, ""):
@@ -107,7 +134,6 @@ for e in toate_revistele:
         for dwd in downloads_revista:
             tabel_download += "| ::: |[[%s|%s]]|\n" % (dwd["link"], dwd["nume"])
         tabel_download = tabel_download.replace(":::", "**Revista**", 1)
-
 
 
     ### download CD/DVD ###
@@ -161,7 +187,7 @@ for e in toate_revistele:
             categorie = cup["rubrica"]
             cuprins += "^" + categorie + "^^^^\n"
 
-        titlu = cup["titlu"].replace("|", "%%|%%")
+        titlu = cup["titlu"]
         if categorie in ("Cuprins CD/DVD", "News", "Cheats") or (categorie == "Chatroom" and titlu == ""):
             titlu = categorie
 
@@ -172,17 +198,18 @@ for e in toate_revistele:
 
         cuprins += Template("|$pagina|$titlu|$autor|$nota|\n").substitute(
             pagina = pagina,
-            titlu = titlu,
+            titlu = in_tabel(titlu),
             autor = cup["autor"],
-            nota = cup["nota"],
+            nota = in_tabel(cup["nota"]),
         )
     if cuprins != "":
         cuprins = "\n===== Cuprins =====\n" + cuprins + "\n"
 
 
-    ### afiseaza rezultatul ###
+    ### output pagina wiki ###
 
-    print(template.substitute(
+    fo = open("level/%d/%d.txt" % (e["an"], e["luna"]), "w")
+    fo.write(template.substitute(
         numar = e["numar"],
         luna = luna[e["luna"]],
         an = e["an"],
@@ -197,5 +224,13 @@ for e in toate_revistele:
         lista_redactori = lista_redactori,
         cuprins = cuprins,
     ))
+    fo.close()
 
-    # TODO: genereaza fisiere
+
+### output pagina principala ###
+
+print(pagina_principala)
+
+#fo = open("level.txt", "w")
+#fo.write(pagina_principala)
+#fo.close()
