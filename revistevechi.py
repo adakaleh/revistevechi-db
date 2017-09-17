@@ -243,8 +243,6 @@ for e in toate_revistele:
 
 ### output pagina principala ###
 
-print(pagina_principala)
-
-#fo = open("level.txt", "w")
-#fo.write(pagina_principala)
-#fo.close()
+fo = open("level.txt", "w")
+fo.write(pagina_principala)
+fo.close()
