@@ -169,7 +169,8 @@ for e in toate_revistele:
     for r in c.execute("SELECT autor, count() nr_articole FROM articole WHERE editie_id = ? GROUP BY autor;", (e["editie_id"], )):
         if r["autor"]:
             ancora = genereaza_ancora(r["autor"])
-            lista_redactori += "\n  * [[level:redactori#%s|%s]] (%s articole)" % (ancora, r["autor"], r["nr_articole"])
+            articol_e = "articole" if r['nr_articole'] > 1 else "articol"
+            lista_redactori += "\n  * [[level:redactori#%s|%s]] (%s %s)" % (ancora, r["autor"], r["nr_articole"], articol_e)
     if lista_redactori != "":
         lista_redactori = "\n===== Redactori =====\n" + lista_redactori + "\n"
 
