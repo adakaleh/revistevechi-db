@@ -5,6 +5,7 @@ from string import Template
 import re
 import operator
 import os
+import collections
 
 if not os.path.isdir("level"):
     os.mkdir("level")
@@ -167,11 +168,22 @@ for e in toate_revistele:
     ### lista redactori ###
 
     lista_redactori = ""
+    redactori = {}
     for r in c.execute("SELECT autor, count() nr_articole FROM articole WHERE editie_id = ? GROUP BY autor;", (e["editie_id"], )):
-        if r["autor"]:
-            ancora = genereaza_ancora(r["autor"])
-            articol_e = "articole" if r['nr_articole'] > 1 else "articol"
-            lista_redactori += "\n  * [[level:redactori#%s|%s]] (%s %s)" % (ancora, r["autor"], r["nr_articole"], articol_e)
+        if not r["autor"]:
+            continue
+        # autorii pot fi mai multi, separati de virgule
+        autori = r["autor"].split(",")
+        for autor in autori:
+            autor = autor.strip() # sterge spatiile de la inceput si sfarsit
+            if autor not in redactori:
+                redactori[autor] = 0
+            redactori[autor] += r["nr_articole"]
+    redactori = collections.OrderedDict(sorted(redactori.items())) # sorteaza redactorii alfabetic
+    for autor, nr_articole in redactori.items():
+        ancora = genereaza_ancora(autor)
+        articol_e = "articole" if nr_articole > 1 else "articol"
+        lista_redactori += "\n  * [[level:redactori#%s|%s]] (%s %s)" % (ancora, autor, nr_articole, articol_e)
     if lista_redactori != "":
         lista_redactori = "\n===== Redactori =====\n" + lista_redactori + "\n"
 
