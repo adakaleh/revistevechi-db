@@ -121,6 +121,7 @@ for e in toate_revistele:
     ### download revista ###
 
     tabel_download = ""
+    link_pagina_cuprins = ""
 
     downloads_revista = get_downloads(e["editie_id"], "revista")
 
@@ -143,7 +144,7 @@ for e in toate_revistele:
     pagina = c.fetchone()
     if pagina:
         pagina = pagina["pg_toc"]
-        if "link_pagina_cuprins" in locals():
+        if link_pagina_cuprins != "":
             link_cuprins_disc_demo = link_pagina_cuprins % (pagina - 1, "cuprins") + ", "
 
     downloads_CD = get_downloads(e["editie_id"], "CD")
@@ -194,7 +195,7 @@ for e in toate_revistele:
 
         pagina = cup["pg_toc"]
         # daca link_pagina_cuprins a fost definit, completeaza-l si foloseste-l in loc de pagina
-        if "link_pagina_cuprins" in locals():
+        if link_pagina_cuprins != "":
             pagina = link_pagina_cuprins % (pagina - 1, pagina)
 
         cuprins += Template("|$pagina|$titlu|$autor|$nota|\n").substitute(
