@@ -96,8 +96,13 @@ for e in toate_revistele:
         os.mkdir("level/%d" % e["an"])
 
     contribuie = ""
-    if e["scan_info_observatii"]:
-        contribuie = "\n<color red>--- //" + e["scan_info_observatii"] + ". Vă rugăm să [[:contribuie|contribuiți]].// ---</color>\n"
+    if e["scan_info_pg_lipsa"]:
+        contribuie = "\n<color red>--- //%s %s. Vă rugăm să [[:contribuie|contribuiți]].// ---</color>\n"
+        # dacă scan_info_pg_lipsa conține caracterul "," sau "-", atunci lipsesc mai multe pagini
+        if ',' in e["scan_info_pg_lipsa"] or '-' in e["scan_info_pg_lipsa"]:
+            contribuie = contribuie % ("Lipsesc paginile", e["scan_info_pg_lipsa"])
+        else:
+            contribuie = contribuie % ("Lipsește pagina", e["scan_info_pg_lipsa"])
 
 
     ### tabel info ###
