@@ -1400,7 +1400,7 @@ INSERT INTO "articole" VALUES(977,7,'Level',30,2000,2,'',29,40,2,'Review','Omikr
 INSERT INTO "articole" VALUES(978,7,'Level',30,2000,2,'',29,42,2,'Review','Codename Eagle','','Dr. Pepper','82');
 INSERT INTO "articole" VALUES(979,7,'Level',30,2000,2,'',29,44,2,'Review','Close Combat 4: Battle of the Bulge','','Marius Ghinea, Radu Boian','95');
 INSERT INTO "articole" VALUES(980,7,'Level',30,2000,2,'',29,47,3,'Review','Vegas Games 2000','','Dr. Pepper','77');
-INSERT INTO "articole" VALUES(981,7,'Level',30,2000,2,'',29,48,1,'Review','Star Trek: Hidden Evil','','','80');
+INSERT INTO "articole" VALUES(981,7,'Level',30,2000,2,'',29,48,1,'Review','Star Trek: Hidden Evil','','Anonymous','80');
 INSERT INTO "articole" VALUES(982,7,'Level',30,2000,2,'',29,50,2,'Review','Hype: The Time Quest','','K''shu','81');
 INSERT INTO "articole" VALUES(983,7,'Level',30,2000,2,'',29,52,2,'Review','Flight Unlimited 3','','Mike','75');
 INSERT INTO "articole" VALUES(984,7,'Level',30,2000,2,'',29,54,4,'Review','Septerra Core: Legacy of the Creator','','K''shu','94');
@@ -5326,7 +5326,7 @@ INSERT INTO "articole" VALUES(4903,7,'Level',124,2007,12,'',123,20,2,'Preview','
 INSERT INTO "articole" VALUES(4904,7,'Level',124,2007,12,'',123,22,5,'Review','Clive Barker''s Jericho','','Marius Ghinea','78');
 INSERT INTO "articole" VALUES(4905,7,'Level',124,2007,12,'',123,28,2,'Review','Hellgate: London','','Zuluf','70');
 INSERT INTO "articole" VALUES(4906,7,'Level',124,2007,12,'',123,30,6,'Review','The Witcher','','cioLAN','90');
-INSERT INTO "articole" VALUES(4907,7,'Level',124,2007,12,'',123,36,1,'Review','The Orange Box','','','');
+INSERT INTO "articole" VALUES(4907,7,'Level',124,2007,12,'',123,36,1,'Review','The Orange Box','','KiMO','96');
 INSERT INTO "articole" VALUES(4908,7,'Level',124,2007,12,'',123,37,2,'Review','Half-Life 2: Episode Two','','KiMO','96');
 INSERT INTO "articole" VALUES(4909,7,'Level',124,2007,12,'',123,39,1,'Review','Portal','','Agentul Oranj','98');
 INSERT INTO "articole" VALUES(4910,7,'Level',124,2007,12,'',123,40,4,'Review','Team Fortress 2','','KiMO','94');
