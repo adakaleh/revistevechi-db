@@ -198,7 +198,7 @@ for e in toate_revistele:
             continue
 
         if categorie != cup["rubrica"]:
-            categorie = cup["rubrica"]
+            categorie = in_tabel(cup["rubrica"])
             cuprins += "^" + categorie + "^^^^\n"
 
         titlu = cup["titlu"]
