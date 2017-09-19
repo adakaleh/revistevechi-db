@@ -203,8 +203,8 @@ for e in toate_revistele:
             continue
 
         if rubrica != cup["rubrica"]:
-            rubrica = in_tabel(cup["rubrica"])
-            cuprins += "^" + rubrica + "^^^^\n"
+            rubrica = cup["rubrica"]
+            cuprins += "^" + in_tabel(rubrica) + "^^^^\n"
 
         titlu = cup["titlu"] if cup["titlu"] != "" else rubrica
 
