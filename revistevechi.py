@@ -191,19 +191,19 @@ for e in toate_revistele:
     ### cuprins ###
 
     cuprins = ""
-    categorie = ""
+    rubrica = ""
     for cup in c.execute("SELECT * FROM articole WHERE editie_id = ? ORDER BY pg_toc;", (e["editie_id"], )):
 
         if cup["rubrica"] == "Cuprins CD/DVD":
             continue
 
-        if categorie != cup["rubrica"]:
-            categorie = in_tabel(cup["rubrica"])
-            cuprins += "^" + categorie + "^^^^\n"
+        if rubrica != cup["rubrica"]:
+            rubrica = in_tabel(cup["rubrica"])
+            cuprins += "^" + rubrica + "^^^^\n"
 
         titlu = cup["titlu"]
-        if categorie in ("Cuprins CD/DVD", "News", "Cheats") or (categorie == "Chatroom" and titlu == ""):
-            titlu = categorie
+        if rubrica in ("Cuprins CD/DVD", "News", "Cheats") or (rubrica == "Chatroom" and titlu == ""):
+            titlu = rubrica
 
         pagina = cup["pg_toc"]
         # daca link_pagina_cuprins a fost definit, completeaza-l si foloseste-l in loc de pagina
