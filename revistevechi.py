@@ -201,9 +201,7 @@ for e in toate_revistele:
             rubrica = in_tabel(cup["rubrica"])
             cuprins += "^" + rubrica + "^^^^\n"
 
-        titlu = cup["titlu"]
-        if rubrica in ("Cuprins CD/DVD", "News", "Cheats") or (rubrica == "Chatroom" and titlu == ""):
-            titlu = rubrica
+        titlu = cup["titlu"] if cup["titlu"] != "" else rubrica
 
         pagina = cup["pg_toc"]
         # daca link_pagina_cuprins a fost definit, completeaza-l si foloseste-l in loc de pagina
