@@ -6,7 +6,7 @@ INSERT INTO "reviste" VALUES (3,'RamTOP',NULL,'disparuta','','1994','4 numere','
 INSERT INTO "reviste" VALUES (4,'Game Over',NULL,'disparuta','tiparita','martie 1996 - august 1999','16 numere','',NULL,NULL);
 INSERT INTO "reviste" VALUES (5,'ComputerGames',NULL,'disparuta','tiparita','septembrie 1996 - mai 1998','10 numere','',NULL,'succedat de site-ul computergames.ro');
 INSERT INTO "reviste" VALUES (6,'PC T&T',NULL,'disparuta','tiparita','1996','2 numere','',NULL,NULL);
-INSERT INTO "reviste" VALUES (7,'Level',NULL,'disparuta','tiparita','septembrie 1997 - noiembrie 2013','195 numere','',NULL,NULL);
+INSERT INTO "reviste" VALUES (7,'Level',NULL,'disparuta','tiparita','septembrie 1997 - noiembrie 2013','191 numere + 4 suplimente + 2 numere nepublicate','',NULL,NULL);
 INSERT INTO "reviste" VALUES (8,'Pc Gaming',NULL,'disparuta','tiparita','1997 - 1999','16 numere','',NULL,'succedat de revista XtremPC');
 INSERT INTO "reviste" VALUES (9,'XtremPC',NULL,'disparuta','tiparita','1999 - iunie 2010','120 numere','',NULL,NULL);
 INSERT INTO "reviste" VALUES (10,'PCGames','PCGames 4 Fun','disparuta','tiparita','aprilie 2000 - iulie 2009','95 numere + 15 numere speciale','',NULL,NULL);
