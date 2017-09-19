@@ -194,7 +194,7 @@ for e in toate_revistele:
     rubrica = ""
     for cup in c.execute("SELECT * FROM articole WHERE editie_id = ? ORDER BY pg_toc;", (e["editie_id"], )):
 
-        if cup["rubrica"] == "Cuprins CD/DVD":
+        if cup["rubrica"] in ("Cuprins CD/DVD", "Cuprins"):
             continue
 
         if rubrica != cup["rubrica"]:
