@@ -216,6 +216,8 @@ for e in toate_revistele:
         )
     if cuprins != "":
         cuprins = "\n===== Cuprins =====\n" + cuprins + "\n"
+    else:
+        contribuie += "\n<color red>--- //Cuprinsul lipsește. Vă rugăm să [[:contribuie|contribuiți]].// ---</color>\n"
 
 
     ### output pagina wiki ###
