@@ -14,12 +14,6 @@ conn = sqlite3.connect("arhiva_reviste.db")
 conn.row_factory = sqlite3.Row
 c = conn.cursor()
 
-pagina_principala = """https://revistevechi.blogspot.ro/2011/07/level-1997-2004-colectia-de-reviste.html
-
-https://mega.nz/#F!SxckBRQa!AZl0AUzjFQvg0AED2iWDBA
-
-"""
-
 template = Template("""====== LEVEL nr. $numar ($luna $an) ======
 $contribuie
 | {{ $img_coperta?direct&150 }} ||
@@ -30,7 +24,7 @@ $tabel_download
 $lista_redactori
 $cuprins""")
 
-luna = {
+luna_string = {
     1: "ianuarie",
     2: "februarie",
     3: "martie",
@@ -78,14 +72,6 @@ def get_downloads(editie_id, categorie):
 toate_revistele = conn.cursor().execute("SELECT * FROM editii WHERE tip = 'revista' AND revista_id = 7 ORDER BY an;")
 
 for e in toate_revistele:
-
-    # construieste pagina principala
-    header_an = "\n\n===== %d =====\n\n" % e["an"]
-    if header_an not in pagina_principala:
-        pagina_principala += header_an
-
-    # TODO: tabel
-    pagina_principala += "[[level:%d:%d]], " % (e["an"], e["luna"])
 
     # sari peste revistele care nu au numar
     if e["numar"] == "":
@@ -230,7 +216,7 @@ for e in toate_revistele:
     fo = open("level/%d/%d.txt" % (e["an"], e["luna"]), "w")
     fo.write(template.substitute(
         numar = e["numar"],
-        luna = luna[e["luna"]],
+        luna = luna_string[e["luna"]],
         an = e["an"],
         contribuie = contribuie,
         img_coperta = img_coperta,
@@ -246,7 +232,44 @@ for e in toate_revistele:
     fo.close()
 
 
-### output pagina principala ###
+### pagina principala ###
+
+pagina_principala = """https://revistevechi.blogspot.ro/2011/07/level-1997-2004-colectia-de-reviste.html
+
+https://mega.nz/#F!SxckBRQa!AZl0AUzjFQvg0AED2iWDBA
+
+Descriere...
+
+"""
+
+ani = conn.cursor().execute("SELECT DISTINCT an FROM editii WHERE tip = 'revista' AND revista_id = 7 ORDER BY an;")
+
+for an in ani:
+
+    an = an["an"]
+
+    template_an = "\n\n===== %d =====\n\n" % an
+    if (an != 1997):
+        template_an += "^Ian^Feb^Mar^Apr^Mai^Iun^\n"
+        template_an += "|$l1|$l2|$l3|$l4|$l5|$l6|\n"
+    template_an += "^Iul^Aug^Sep^Oct^Nov^Dec^\n"
+    template_an += "|$l7|$l8|$l9|$l10|$l11|$l12|\n"
+
+    luni_reviste = []
+    for rand in c.execute("SELECT DISTINCT luna FROM editii WHERE tip = 'revista' AND revista_id = 7 AND an = ? ORDER BY luna;", (an, )):
+        luni_reviste.append(rand["luna"])
+
+    l = {}
+    for luna in range(1, 13):
+        if luna in luni_reviste: # daca exista revista
+            l[luna] = "[[level:%d:%d|{{:level:2003:12:level200312001.jpg?nolink&100}}]]" % (an, luna)
+        else: # daca nu exista revista
+            l[luna] = "{{coperta_default.png?nolink&100}}"
+
+    pagina_principala += Template(template_an).substitute(
+        l1 = l[1], l2 = l[2], l3 = l[3], l4 = l[4], l5 = l[5], l6 = l[6],
+        l7 = l[7], l8 = l[8], l9 = l[9], l10 = l[10], l11 = l[11], l12 = l[12],
+    )
 
 fo = open("level.txt", "w")
 fo.write(pagina_principala)
