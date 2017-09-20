@@ -1143,7 +1143,7 @@ INSERT INTO "articole" VALUES(720,7,'Level',25,1999,9,'',24,38,2,'Preview','Meta
 INSERT INTO "articole" VALUES(721,7,'Level',25,1999,9,'',24,40,3,'Preview','Asheron''s Call','','Claude','');
 INSERT INTO "articole" VALUES(722,7,'Level',25,1999,9,'',24,44,2,'Review','Street Wars','','Claude','79');
 INSERT INTO "articole" VALUES(723,7,'Level',25,1999,9,'',24,46,2,'Review','Kingpin: Life of Crime','','Dr. Pepper','88');
-INSERT INTO "articole" VALUES(724,7,'Level',25,1999,9,'',24,48,2,'Review','Outcast','','K''Shu','90');
+INSERT INTO "articole" VALUES(724,7,'Level',25,1999,9,'',24,48,2,'Review','Outcast','','K''shu','90');
 INSERT INTO "articole" VALUES(725,7,'Level',25,1999,9,'',24,50,4,'Review','Unreal - Return to Na Pali','','Marius Ghinea','73');
 INSERT INTO "articole" VALUES(726,7,'Level',25,1999,9,'',24,54,2,'Review','Fighting Steel','','Radu Boian, Marius Ghinea','84');
 INSERT INTO "articole" VALUES(727,7,'Level',25,1999,9,'',24,56,2,'Review','Total Annihilation: Kingdoms','','Sergio','79');
@@ -1395,7 +1395,7 @@ INSERT INTO "articole" VALUES(972,7,'Level',30,2000,2,'',29,30,2,'Review','Odium
 INSERT INTO "articole" VALUES(973,7,'Level',30,2000,2,'',29,32,1,'Review','Fatal Illusion','','Claude','78');
 INSERT INTO "articole" VALUES(974,7,'Level',30,2000,2,'',29,34,1,'Review','Championship Manager 2000','','Claude','65');
 INSERT INTO "articole" VALUES(975,7,'Level',30,2000,2,'',29,36,2,'Review','Interstate ''82','','Wild Snake','76');
-INSERT INTO "articole" VALUES(976,7,'Level',30,2000,2,'',29,38,2,'Review','Phoenix','','K''Shu','84');
+INSERT INTO "articole" VALUES(976,7,'Level',30,2000,2,'',29,38,2,'Review','Phoenix','','K''shu','84');
 INSERT INTO "articole" VALUES(977,7,'Level',30,2000,2,'',29,40,2,'Review','Omikron: The Nomad Soul','','Marius Ghinea','63');
 INSERT INTO "articole" VALUES(978,7,'Level',30,2000,2,'',29,42,2,'Review','Codename Eagle','','Dr. Pepper','82');
 INSERT INTO "articole" VALUES(979,7,'Level',30,2000,2,'',29,44,2,'Review','Close Combat 4: Battle of the Bulge','','Marius Ghinea, Radu Boian','95');
@@ -1426,7 +1426,7 @@ INSERT INTO "articole" VALUES(1003,7,'Level',31,2000,3,'',30,3,1,'Editorial','Jo
 INSERT INTO "articole" VALUES(1004,7,'Level',31,2000,3,'',30,6,2,'Cuprins CD/DVD','','','','');
 INSERT INTO "articole" VALUES(1005,7,'Level',31,2000,3,'',30,8,4,'News','','','','');
 INSERT INTO "articole" VALUES(1006,7,'Level',31,2000,3,'',30,13,1,'Interviu','Jason Manley, artistul din spatele jocului Icewind Dale','','','');
-INSERT INTO "articole" VALUES(1007,7,'Level',31,2000,3,'',30,14,2,'First Look','Storm/Echelon','','K''Shu','');
+INSERT INTO "articole" VALUES(1007,7,'Level',31,2000,3,'',30,14,2,'First Look','Storm/Echelon','','K''shu','');
 INSERT INTO "articole" VALUES(1008,7,'Level',31,2000,3,'',30,16,2,'First Look','Die Hard Trilogy 2: Viva Las Vegas','','Claude','');
 INSERT INTO "articole" VALUES(1009,7,'Level',31,2000,3,'',30,18,2,'First Look','No Name War','','Dr. Pepper','');
 INSERT INTO "articole" VALUES(1010,7,'Level',31,2000,3,'',30,20,2,'Preview','Hitman: Codename 47','','Wild Snake','');
@@ -1440,7 +1440,7 @@ INSERT INTO "articole" VALUES(1017,7,'Level',31,2000,3,'',30,34,2,'Review','Azte
 INSERT INTO "articole" VALUES(1018,7,'Level',31,2000,3,'',30,36,2,'Review','Theocracy','','Claude','94');
 INSERT INTO "articole" VALUES(1019,7,'Level',31,2000,3,'',30,38,2,'Review','Unreal Tournament','','Cetăţeanul Turmentat','96');
 INSERT INTO "articole" VALUES(1020,7,'Level',31,2000,3,'',30,40,2,'Review','Quake 3: Arena','','Phear the Quak3','91');
-INSERT INTO "articole" VALUES(1021,7,'Level',31,2000,3,'',30,42,2,'Review','Tzar','','K''Shu','80');
+INSERT INTO "articole" VALUES(1021,7,'Level',31,2000,3,'',30,42,2,'Review','Tzar','','K''shu','80');
 INSERT INTO "articole" VALUES(1022,7,'Level',31,2000,3,'',30,44,2,'Review','Crusaders of Might and Magic','','Wild Snake','67');
 INSERT INTO "articole" VALUES(1023,7,'Level',31,2000,3,'',30,46,2,'Review','Sid Meier''s Antietam!','','Claude','86');
 INSERT INTO "articole" VALUES(1024,7,'Level',31,2000,3,'',30,48,2,'Review','The Corporate Machine','','Claude','80');
