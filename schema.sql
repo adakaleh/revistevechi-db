@@ -4,6 +4,8 @@ CREATE TABLE "reviste" (
 	`revista_alias`	TEXT,
 	`status`	TEXT,
 	`tip`	TEXT,
+	`perioada`	TEXT,
+	`aparitii`	TEXT,
 	`descriere`	TEXT,
 	`link_oficial`	TEXT,
 	`observatii`	TEXT
