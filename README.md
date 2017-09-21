@@ -1,4 +1,8 @@
-# reviste vechi
+# reviste vechi - baza de date
+
+Folosită în proiectele:
+- https://github.com/adakaleh/revistevechi-wiki-scripts
+- https://github.com/cristan2/ArhivaRevisteVechi
 
 Baza de date se generează cu următoarele comenzi:
 ```
