@@ -48,7 +48,7 @@ INSERT INTO "editii" VALUES(10,7,'revista',NULL,9,1998,6,'',18000,52,'CD (1)',NU
 INSERT INTO "editii" VALUES(11,7,'revista',NULL,10,1998,7,'',18000,52,'CD (1)','Battlecruiser 3000AD','Mr. President','','',52,NULL,'','Cristan');
 INSERT INTO "editii" VALUES(12,7,'revista',NULL,11,1998,8,'',18000,52,'CD (1)',NULL,'Mr. President','','',52,NULL,'','Cristan');
 INSERT INTO "editii" VALUES(13,7,'revista',NULL,12,1998,9,'',22000,100,'CD (1)',NULL,'Mr. President','','',100,NULL,'','Cristan');
-INSERT INTO "editii" VALUES(14,7,'revista',NULL,13,1998,10,'',22000,100,'CD (1)',NULL,'Mr. President','','',100,NULL,'ar trebui rescanat (w/ descreening)','mac85');
+INSERT INTO "editii" VALUES(14,7,'revista',NULL,13,1998,10,'',22000,100,'CD (1)','Action Soccer','Mr. President','','',100,NULL,'ar trebui rescanat (w/ descreening)','mac85');
 INSERT INTO "editii" VALUES(15,7,'revista',NULL,14,1998,11,'',25000,100,'CD (1)',NULL,'Mr. President','','',100,NULL,'','Cristan, Fibra');
 INSERT INTO "editii" VALUES(16,7,'revista',NULL,15,1998,12,'',25000,100,'CD (1)',NULL,'Mr. President','','',100,NULL,'','Cristan');
 INSERT INTO "editii" VALUES(17,7,'revista',NULL,16,1999,1,'',25000,100,'CD (1)',NULL,'Mr. President','','',100,NULL,'','Cristan');
