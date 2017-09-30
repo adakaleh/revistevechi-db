@@ -247,8 +247,8 @@ INSERT INTO `editii` VALUES (197,7,'supliment','134',133,2008,10,NULL,NULL,NULL,
 INSERT INTO `editii` VALUES (198,7,'supliment','135',134,2008,11,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Supliment Level mobile - Vodafone',0,NULL,NULL,NULL);
 INSERT INTO `editii` VALUES (199,7,'supliment','142',141,2009,6,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Supliment Level mobile - Vodafone',0,NULL,NULL,NULL);
 INSERT INTO `editii` VALUES (200,7,'supliment','147',146,2009,11,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Supliment Level mobile - Orange',0,NULL,NULL,NULL);
-INSERT INTO `editii` VALUES (201,0,'supliment','141',140,2009,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Supliment Level mobile - Orange',NULL,NULL,NULL,NULL);
-INSERT INTO `editii` VALUES (202,0,'supliment','129',128,2008,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Supliment Level mobile - Vodafone',NULL,NULL,NULL,NULL);
+INSERT INTO `editii` VALUES (201,7,'supliment','141',140,2009,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Supliment Level mobile - Orange',NULL,NULL,NULL,NULL);
+INSERT INTO `editii` VALUES (202,7,'supliment','129',128,2008,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'Supliment Level mobile - Vodafone',NULL,NULL,NULL,NULL);
 INSERT INTO "downloads" VALUES(1,'revista',1,'https://www.archive.org/details/Level01sep-1997');
 INSERT INTO "downloads" VALUES(2,'revista',1,'https://www.archive.org/details/Level02oct-1997');
 INSERT INTO "downloads" VALUES(3,'revista',1,'https://www.archive.org/details/Level03nov-1997');
