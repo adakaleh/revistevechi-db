@@ -13,7 +13,7 @@ CREATE TABLE "reviste" (
 CREATE TABLE "editii" (
 	`editie_id`	INTEGER PRIMARY KEY AUTOINCREMENT,
 	`revista_id`	INTEGER NOT NULL,
-	`tip`	TEXT,
+	`tip`	TEXT DEFAULT 'revista',
 	`parinte_editie_id`	TEXT,
 	`numar`	INTEGER NOT NULL,
 	`an`	INTEGER NOT NULL,
@@ -35,8 +35,8 @@ CREATE TABLE "editii" (
 CREATE TABLE "downloads" (
 	`editie_id`	INTEGER NOT NULL,
 	`categorie`	TEXT NOT NULL DEFAULT 'revista',
-	`item`	INTEGER,
-	`link`	TEXT,
+	`item`	INTEGER DEFAULT 1,
+	`link`	TEXT UNIQUE,
 	FOREIGN KEY(`editie_id`) REFERENCES `editii`(`editie_id`)
 );
 CREATE TABLE "articole" (
