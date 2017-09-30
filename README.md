@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/adakaleh/revistevechi-db.svg?branch=master)](https://travis-ci.org/adakaleh/revistevechi-db)
+
 # reviste vechi - baza de date
 
 Folosită în proiectele:

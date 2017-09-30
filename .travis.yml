@@ -1,0 +1,5 @@
+language: shell
+install: true
+script:
+  - sqlite3 arhiva_reviste.db < schema.sql
+  - sqlite3 arhiva_reviste.db < data.sql
