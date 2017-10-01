@@ -45,13 +45,8 @@ Valori download('categorie')
 * coperta_CD
 * coperta_DVD
 
+Valori editii('scan_info_observatii')
 
-
-#### Neimplementat inca
-
-Valori editii('scan_status')
-
-* complet_OK
-* complet_nesatisfacator
-* incomplet_OK
-* incomplet_nesatisfacator
+* mențiunile legate de calitatea scan-ului vor fi prefixate cu una dintre valorile LQ, MQ, GQ (low-quality, etc);
+* dacă fișierul e de calitate foarte bună, se lasă gol (nu are sens să folosim HQ); 
+* alte aprecieri se trec după o liniuță (ex: "LQ - rescan, recrop" ar însemna "calitate scăzută, necesită rescan sau cel puțin un recrop").
