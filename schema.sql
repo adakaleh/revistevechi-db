@@ -1,4 +1,4 @@
-CREATE TABLE "reviste" (
+CREATE TABLE IF NOT EXISTS "reviste" (
 	`revista_id`	INTEGER PRIMARY KEY AUTOINCREMENT,
 	`revista_nume`	TEXT,
 	`revista_alias`	TEXT,
@@ -10,7 +10,7 @@ CREATE TABLE "reviste" (
 	`link_oficial`	TEXT,
 	`observatii`	TEXT
 );
-CREATE TABLE "editii" (
+CREATE TABLE IF NOT EXISTS "editii" (
 	`editie_id`	INTEGER PRIMARY KEY AUTOINCREMENT,
 	`revista_id`	INTEGER NOT NULL,
 	`tip`	TEXT DEFAULT 'revista',
@@ -32,14 +32,14 @@ CREATE TABLE "editii" (
 	`scan_info_credits`	TEXT,
 	FOREIGN KEY(`revista_id`) REFERENCES `reviste`(`revista_id`)
 );
-CREATE TABLE "downloads" (
+CREATE TABLE IF NOT EXISTS "downloads" (
 	`editie_id`	INTEGER NOT NULL,
 	`categorie`	TEXT NOT NULL DEFAULT 'revista',
 	`item`	INTEGER DEFAULT 1,
 	`link`	TEXT UNIQUE,
 	FOREIGN KEY(`editie_id`) REFERENCES `editii`(`editie_id`)
 );
-CREATE TABLE "articole" (
+CREATE TABLE IF NOT EXISTS "articole" (
 	`articol_id`	INTEGER PRIMARY KEY AUTOINCREMENT,
 	`revista_id`	INTEGER NOT NULL,
 	`revista_nume`	TEXT NOT NULL,
