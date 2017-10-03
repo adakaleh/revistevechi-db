@@ -6,19 +6,14 @@ Folosită în proiectele:
 - https://github.com/adakaleh/revistevechi-wiki-scripts
 - https://github.com/cristan2/ArhivaRevisteVechi
 
-Baza de date se generează cu următoarele comenzi:
+Baza de date se generează cu:
 ```
-sqlite3 arhiva_reviste.db < schema.sql
-sqlite3 arhiva_reviste.db < data.sql
+sh genereaza.sh db
 ```
 
-Dump-ul se generează cu următoarele comenzi:
+Dump-ul se generează cu:
 ```
-sqlite3 arhiva_reviste.db .schema > schema.sql
-sqlite3 arhiva_reviste.db .dump > dump.sql
-grep -vx -f schema.sql dump.sql > data.sql
-rm dump.sql
-sed -i 's/^PRAGMA foreign_keys=OFF;$/PRAGMA foreign_keys=ON;/g' data.sql
+sh genereaza.sh dump
 ```
 
 ---
