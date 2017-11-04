@@ -6043,7 +6043,7 @@ INSERT INTO articole VALUES(5643,7,'Level',138,2009,2,'',137,3,1,'Editorial','Vr
 INSERT INTO articole VALUES(5644,7,'Level',138,2009,2,'',137,6,1,'Cuprins CD/DVD','','','','');
 INSERT INTO articole VALUES(5645,7,'Level',138,2009,2,'',137,8,1,'Joc Complet','Prince of Persia: The Sands of Time','','','');
 INSERT INTO articole VALUES(5646,7,'Level',138,2009,2,'',137,10,3,'News','','','','');
-INSERT INTO articole VALUES(5647,7,'Level',138,2009,2,'',137,16,5,'GameDev','Interviu cu Jason Hayes, compozitor Blizzard & NC Soft','','Lara','');
+INSERT INTO articole VALUES(5647,7,'Level',138,2009,2,'',137,16,6,'GameDev','Interviu cu Jason Hayes, compozitor Blizzard & NC Soft','','Lara','');
 INSERT INTO articole VALUES(5648,7,'Level',138,2009,2,'',137,22,2,'e-Sports','World Cyber Games 08','','vhallee','');
 INSERT INTO articole VALUES(5649,7,'Level',138,2009,2,'',137,24,2,'Board Games','Arkham Horror','','Paul Policarp','');
 INSERT INTO articole VALUES(5650,7,'Level',138,2009,2,'',137,26,2,'Preview','Halo 3: ODST','','Paul Policarp','');
