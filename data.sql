@@ -660,7 +660,7 @@ INSERT INTO articole VALUES(260,7,'Level',14,1998,10,'',13,6,2,'Cuprins CD/DVD',
 INSERT INTO articole VALUES(261,7,'Level',14,1998,10,'',13,8,6,'News','','','','');
 INSERT INTO articole VALUES(262,7,'Level',14,1998,10,'',13,10,2,'Top Ten','','','','');
 INSERT INTO articole VALUES(263,7,'Level',14,1998,10,'',13,16,4,'First Look','Carmageddon 2','','Sergio','');
-INSERT INTO articole VALUES(264,7,'Level',14,1998,10,'',13,20,2,'First Look','Diablo 2','','Sergio','');
+INSERT INTO articole VALUES(264,7,'Level',14,1998,10,'',13,20,3,'First Look','Diablo 2','','Sergio','');
 INSERT INTO articole VALUES(265,7,'Level',14,1998,10,'',13,23,3,'First Look','Tomb Raider 3','','Mr. President','');
 INSERT INTO articole VALUES(266,7,'Level',14,1998,10,'',13,26,3,'First Look','Civilization: Call to Power','','Claude','');
 INSERT INTO articole VALUES(267,7,'Level',14,1998,10,'',13,30,3,'Preview','Dungeon Keeper 2','','Sergio','');
@@ -2922,7 +2922,7 @@ INSERT INTO articole VALUES(2522,7,'Level',67,2003,3,'',66,26,4,'Review','Sim Ci
 INSERT INTO articole VALUES(2523,7,'Level',67,2003,3,'',66,30,1,'Review','Drome Racers','','Sebah','75');
 INSERT INTO articole VALUES(2524,7,'Level',67,2003,3,'',66,31,1,'Review','Drift: When Worlds Collide','','Locke','41');
 INSERT INTO articole VALUES(2525,7,'Level',67,2003,3,'',66,32,4,'Review','NBA Live 2003','','Koniec','84');
-INSERT INTO articole VALUES(2526,7,'Level',67,2003,3,'',66,36,3,'Review','Unreal 2 - The Awakening','','Marius Ghinea, Koniec, Mike','68');
+INSERT INTO articole VALUES(2526,7,'Level',67,2003,3,'',66,36,4,'Review','Unreal 2 - The Awakening','','Marius Ghinea, Koniec, Mike','68');
 INSERT INTO articole VALUES(2527,7,'Level',67,2003,3,'',66,40,2,'Review','Tony Tough and the Night of the Roasted Moths','','Mitza','82');
 INSERT INTO articole VALUES(2528,7,'Level',67,2003,3,'',66,42,2,'Joc Complet','Legacy of Kain: Soul Reaver','','Mitza','');
 INSERT INTO articole VALUES(2529,7,'Level',67,2003,3,'',66,44,2,'GameDev','Atelierul tânărului MODelist (4/4) - MilkShape 3D','','Locke','');
@@ -3715,7 +3715,7 @@ INSERT INTO articole VALUES(3315,7,'Level',86,2004,10,'',85,51,1,'Hardware','Ben
 INSERT INTO articole VALUES(3316,7,'Level',86,2004,10,'',85,51,1,'Hardware','Infosmart Access Point','','BogdanS','5|5');
 INSERT INTO articole VALUES(3317,7,'Level',86,2004,10,'',85,52,1,'Hardware','Creative Zen Touch','','BogdanS','5|5');
 INSERT INTO articole VALUES(3318,7,'Level',86,2004,10,'',85,52,1,'Hardware','Sharkoon HDD Vibe-Fixer','','BogdanS','2|5');
-INSERT INTO articole VALUES(3319,7,'Level',86,2004,10,'',85,52,1,'Hardware','Thurstmaster Nomad''s Wireless Pack','','BogdanS','5|5');
+INSERT INTO articole VALUES(3319,7,'Level',86,2004,10,'',85,52,1,'Hardware','Thrustmaster Nomad''s Wireless Pack','','BogdanS','5|5');
 INSERT INTO articole VALUES(3320,7,'Level',86,2004,10,'',85,52,1,'Hardware','Akasa Fan Control Pro','','BogdanS','5|5');
 INSERT INTO articole VALUES(3321,7,'Level',86,2004,10,'',85,52,1,'Hardware','Logitech QuickCam Zoom','','BogdanS','5|5');
 INSERT INTO articole VALUES(3322,7,'Level',86,2004,10,'',85,53,1,'Hardware','Asus P5AD2 Premium','','BogdanS','5|5');
@@ -3749,7 +3749,7 @@ INSERT INTO articole VALUES(3349,7,'Level',87,2004,11,'',86,52,3,'Console','Metr
 INSERT INTO articole VALUES(3350,7,'Level',87,2004,11,'',86,57,1,'Console','X-Men Legends | N-Gage','','cioLAN','');
 INSERT INTO articole VALUES(3351,7,'Level',87,2004,11,'',86,59,1,'Console','Metroid: Zero Mission | GBA','','cioLAN','5|5');
 INSERT INTO articole VALUES(3352,7,'Level',87,2004,11,'',86,60,1,'Hardware','HP iPAQ Pocket PC H6340','','BogdanS','5|5');
-INSERT INTO articole VALUES(3353,7,'Level',87,2004,11,'',86,61,1,'Hardware','Thurstmaster Enzo Ferrari Wireless','','BogdanS','5|5');
+INSERT INTO articole VALUES(3353,7,'Level',87,2004,11,'',86,61,1,'Hardware','Thrustmaster Enzo Ferrari Wireless','','BogdanS','5|5');
 INSERT INTO articole VALUES(3354,7,'Level',87,2004,11,'',86,61,1,'Hardware','SYD DSC-5800C','','BogdanS','4|5');
 INSERT INTO articole VALUES(3355,7,'Level',87,2004,11,'',86,62,1,'Hardware','Hercules Smart TV USB2','','BogdanS','4|5');
 INSERT INTO articole VALUES(3356,7,'Level',87,2004,11,'',86,62,1,'Hardware','Thermaltake Silver River 2,5"','','BogdanS','5|5');
@@ -5341,7 +5341,7 @@ INSERT INTO articole VALUES(4941,7,'Level',125,2008,1,'',124,3,'','Editorial','�
 INSERT INTO articole VALUES(4942,7,'Level',125,2008,1,'',124,4,'','Cuprins CD/DVD','','','','');
 INSERT INTO articole VALUES(4943,7,'Level',125,2008,1,'',124,6,4,'News','','','','');
 INSERT INTO articole VALUES(4944,7,'Level',125,2008,1,'',124,10,1,'RIP','Into The Shadows','','cioLAN','');
-INSERT INTO articole VALUES(4945,7,'Level',125,2008,1,'',124,10,1,'RIP','Indiana Jones and the Iron Phoenix','','cioLAN','');
+INSERT INTO articole VALUES(4945,7,'Level',125,2008,1,'',124,10,2,'RIP','Indiana Jones and the Iron Phoenix','','cioLAN','');
 INSERT INTO articole VALUES(4946,7,'Level',125,2008,1,'',124,11,1,'RIP','Warcraft Adventures','','cioLAN','');
 INSERT INTO articole VALUES(4947,7,'Level',125,2008,1,'',124,14,2,'Interviu','Tudor Şerban - Lead game designer Silent Hunter 4: U-boat Misssions','','Locke','');
 INSERT INTO articole VALUES(4948,7,'Level',125,2008,1,'',124,16,2,'Preview','Legendary: The Box','','Koniec','');
@@ -5429,8 +5429,7 @@ INSERT INTO articole VALUES(5029,7,'Level',127,2008,3,'',126,3,1,'Editorial','Ne
 INSERT INTO articole VALUES(5030,7,'Level',127,2008,3,'',126,4,2,'Cuprins CD/DVD','','','','');
 INSERT INTO articole VALUES(5031,7,'Level',127,2008,3,'',126,6,4,'News','','','','');
 INSERT INTO articole VALUES(5032,7,'Level',127,2008,3,'',126,12,4,'Special','Concept art şi Gaming (I)','','Zuluf','');
-INSERT INTO articole VALUES(5033,7,'Level',127,2008,3,'',126,18,1,'RIP','Super hero RPGs: Champions/The Indestructibles/Guardians: Agents of Justice','','cioLAN','');
-INSERT INTO articole VALUES(5034,7,'Level',127,2008,3,'',126,19,3,'RIP','Deadlands','','cioLAN','');
+INSERT INTO articole VALUES(5033,7,'Level',127,2008,3,'',126,18,4,'RIP','Super hero RPGs: Champions, The Indestructibles, Guardians: Agents of Justice, Deadlands','','cioLAN','');
 INSERT INTO articole VALUES(5035,7,'Level',127,2008,3,'',126,22,2,'Preview','Tiberium','','KiMO','');
 INSERT INTO articole VALUES(5036,7,'Level',127,2008,3,'',126,24,2,'Preview','Tekken 6','','Rzarectha','');
 INSERT INTO articole VALUES(5037,7,'Level',127,2008,3,'',126,26,2,'Preview','Hard To Be A God','','Koniec','');
@@ -5953,15 +5952,14 @@ INSERT INTO articole VALUES(5553,7,'Level',136,2008,12,'',135,44,3,'Review','Cry
 INSERT INTO articole VALUES(5554,7,'Level',136,2008,12,'',135,48,5,'Review','Dead Space','','cioLAN','84');
 INSERT INTO articole VALUES(5555,7,'Level',136,2008,12,'',135,54,3,'Review','Command & Conquer: Red Alert 3','','Locke','88');
 INSERT INTO articole VALUES(5556,7,'Level',136,2008,12,'',135,58,2,'Review','MotoGP 08','','Discordless','80');
-INSERT INTO articole VALUES(5557,7,'Level',136,2008,12,'',135,60,6,'Review','FarCry 2','','Marius Ghinea, KiMO','77');
+INSERT INTO articole VALUES(5557,7,'Level',136,2008,12,'',135,60,8,'Review','FarCry 2','','Marius Ghinea, KiMO','77');
 INSERT INTO articole VALUES(5558,7,'Level',136,2008,12,'',135,68,1,'Review','FIFA 09','','Koniec','88');
 INSERT INTO articole VALUES(5559,7,'Level',136,2008,12,'',135,70,5,'Review','Warhamer Online: Age of Reckoning','','Koniec','88');
 INSERT INTO articole VALUES(5560,7,'Level',136,2008,12,'',135,78,1,'Review','Civilization 4: Colonization','','Marius Ghinea','74');
 INSERT INTO articole VALUES(5561,7,'Level',136,2008,12,'',135,80,2,'Review','World of Goo','','Caleb','100');
 INSERT INTO articole VALUES(5562,7,'Level',136,2008,12,'',135,82,1,'Indie','Outpost Kaloki','','ncv','');
 INSERT INTO articole VALUES(5563,7,'Level',136,2008,12,'',135,100,2,'Retro','Metal Slug Retrospective','','Zuluf','');
-INSERT INTO articole VALUES(5564,7,'Level',136,2008,12,'',135,102,1,'RIP','Meantime','','cioLAN','');
-INSERT INTO articole VALUES(5565,7,'Level',136,2008,12,'',135,103,1,'RIP','Star Trek: Secret of Vulcan Fury','','cioLAN','');
+INSERT INTO articole VALUES(5564,7,'Level',136,2008,12,'',135,102,2,'RIP','Meantime & Star Trek: Secret of Vulcan Fury','','cioLAN','');
 INSERT INTO articole VALUES(5566,7,'Level',136,2008,12,'',135,104,1,'Mini Games','Moon Rush','','Jack The Ripper','');
 INSERT INTO articole VALUES(5567,7,'Level',136,2008,12,'',135,104,1,'Mini Games','Cab Driver','','Jack The Ripper','');
 INSERT INTO articole VALUES(5568,7,'Level',136,2008,12,'',135,104,1,'Mini Games','Snowball','','Jack The Ripper','');
@@ -6298,7 +6296,7 @@ INSERT INTO articole VALUES(5898,7,'Level',142,2009,6,'',141,87,2,'Test Comparat
 INSERT INTO articole VALUES(5899,7,'Level',142,2009,6,'',141,90,1,'Hardware','Panasonic DMC-FS6','','BogdanS','');
 INSERT INTO articole VALUES(5900,7,'Level',142,2009,6,'',141,90,1,'Hardware','Hercules DJ Console RMX','','BogdanS','');
 INSERT INTO articole VALUES(5901,7,'Level',142,2009,6,'',141,91,1,'Hardware','Thrustmaster T.Flight Hotas X','','BogdanS','');
-INSERT INTO articole VALUES(5902,7,'Level',142,2009,6,'',141,91,1,'Hardware','Samsunt SyncMaster P2070','','BogdanS','');
+INSERT INTO articole VALUES(5902,7,'Level',142,2009,6,'',141,91,1,'Hardware','Samsung SyncMaster P2070','','BogdanS','');
 INSERT INTO articole VALUES(5903,7,'Level',142,2009,6,'',141,92,1,'Hardware','Hercules Classic Link','','BogdanS','');
 INSERT INTO articole VALUES(5904,7,'Level',142,2009,6,'',141,92,1,'Hardware','Iriver P7','','BogdanS','');
 INSERT INTO articole VALUES(5905,7,'Level',142,2009,6,'',141,93,1,'Hardware','D-Link Wireless Network Camera DCS-1130','','BogdanS','');
