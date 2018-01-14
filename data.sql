@@ -559,7 +559,7 @@ INSERT INTO articole VALUES(86,7,'Level',5,1998,1,'',5,30,2,'Review','Armored Fi
 INSERT INTO articole VALUES(87,7,'Level',5,1998,1,'',5,32,2,'Review','Test Drive 4','','Indianu''','8 | 10');
 INSERT INTO articole VALUES(88,7,'Level',5,1998,1,'',5,34,2,'Review','Zork: The Grand Inquisitor','','Indianu''','9 | 10');
 INSERT INTO articole VALUES(89,7,'Level',5,1998,1,'',5,36,2,'Review','Riven: The Sequel to Myst','','Indianu''','10 | 10');
-INSERT INTO articole VALUES(90,7,'Level',5,1998,1,'',5,38,2,'Review','F22-Raptor','','Indianu''','8 | 10');
+INSERT INTO articole VALUES(90,7,'Level',5,1998,1,'',5,38,2,'Review','F-22 Raptor','','Indianu''','8 | 10');
 INSERT INTO articole VALUES(91,7,'Level',5,1998,1,'',5,40,2,'Retro','Wolfenstein 3D','','Indianu''','');
 INSERT INTO articole VALUES(92,7,'Level',5,1998,1,'',5,42,1,'Console','F1 Pole Position','','Mr. President','');
 INSERT INTO articole VALUES(93,7,'Level',5,1998,1,'',5,43,1,'Console','Wayne Gretzky''s 3D Hockey','','Mr. President','');
@@ -2028,8 +2028,7 @@ INSERT INTO articole VALUES(1555,7,'Level',44,2001,4,'',43,18,2,'Preview','Empir
 INSERT INTO articole VALUES(1556,7,'Level',44,2001,4,'',43,20,2,'Preview','Evil Dead: Hail to the King','','Sebah','');
 INSERT INTO articole VALUES(1557,7,'Level',44,2001,4,'',43,22,2,'Preview','Project Eden','','Sebah','');
 INSERT INTO articole VALUES(1558,7,'Level',44,2001,4,'',43,24,2,'Preview','Outlive','','Mike','');
-INSERT INTO articole VALUES(1559,7,'Level',44,2001,4,'',43,26,1,'Review','Counter-Strike','','Mitza','97');
-INSERT INTO articole VALUES(1560,7,'Level',44,2001,4,'',43,28,2,'Interviu','Minh "Gooseman" Le, Counter-Strike creator','','Mitza','');
+INSERT INTO articole VALUES(1559,7,'Level',44,2001,4,'',43,26,4,'Review','Counter-Strike','','Mitza','97');
 INSERT INTO articole VALUES(1561,7,'Level',44,2001,4,'',43,30,2,'Review','Cabela''s 4x4 Off Road Adventure','','Claude','87');
 INSERT INTO articole VALUES(1562,7,'Level',44,2001,4,'',43,32,2,'Review','Europa Universalis','','Claude','86');
 INSERT INTO articole VALUES(1563,7,'Level',44,2001,4,'',43,34,1,'Review','Icewind Dale: Heart of Winter','','K''shu','85');
@@ -7758,7 +7757,7 @@ INSERT INTO articole VALUES(7287,7,'Level',186,2013,3,'',184,70,1,'Review','Lego
 INSERT INTO articole VALUES(7288,7,'Level',186,2013,3,'',184,72,2,'Indie','Miasmata','','Radu Sorop','');
 INSERT INTO articole VALUES(7289,7,'Level',186,2013,3,'',184,74,1,'Indie','Proteus','','Aidan','');
 INSERT INTO articole VALUES(7290,7,'Level',186,2013,3,'',184,75,1,'Indie','The Real Texas','','Aidan','');
-INSERT INTO articole VALUES(7291,7,'Level',186,2013,3,'',184,76,4,'Retro','I Have No Mouth, But I Must Scream','','Radu Sorop','');
+INSERT INTO articole VALUES(7291,7,'Level',186,2013,3,'',184,76,4,'Retro','I Have No Mouth, and I Must Scream','','Radu Sorop','');
 INSERT INTO articole VALUES(7292,7,'Level',186,2013,3,'',184,80,2,'Load""','North & South','','','');
 INSERT INTO articole VALUES(7293,7,'Level',186,2013,3,'',184,82,1,'Free2Play|mini games','Akaneiro: Demon Hunters','','ncv','');
 INSERT INTO articole VALUES(7294,7,'Level',186,2013,3,'',184,84,2,'Eveniment','AIWO 2013','','Aidan','');
@@ -7893,7 +7892,7 @@ INSERT INTO articole VALUES(7422,7,'Level',191,2013,9,'',189,6,16,'Eveniment','g
 INSERT INTO articole VALUES(7423,7,'Level',191,2013,9,'',189,22,6,'Cultură Gameristică','Despre Viitorul Apropiat: Exclusivist','','ncv','');
 INSERT INTO articole VALUES(7424,7,'Level',191,2013,9,'',189,28,4,'Cultură Gameristică','Utopia Dystopia','','Radu Sorop','');
 INSERT INTO articole VALUES(7425,7,'Level',191,2013,9,'',189,32,6,'Review','Tom Clancy'' s Splinter Cell Blacklist','PC, X360, PS3, Wii','cioLAN','85');
-INSERT INTO articole VALUES(7426,7,'Level',191,2013,9,'',189,38,2,'Review','Rise of The Triard','PC','Aidan','69');
+INSERT INTO articole VALUES(7426,7,'Level',191,2013,9,'',189,38,2,'Review','Rise of The Triad','PC','Aidan','69');
 INSERT INTO articole VALUES(7427,7,'Level',191,2013,9,'',189,40,4,'Review','Pikmin 3','Wii U','ncv','90');
 INSERT INTO articole VALUES(7428,7,'Level',191,2013,9,'',189,44,2,'Review','Guacemelee! Gold Edition','PC, PSV, PS3','Aidan','90');
 INSERT INTO articole VALUES(7429,7,'Level',191,2013,9,'',189,46,6,'Review','ShadowRun Returns','PC','Radu Sorop','75');
