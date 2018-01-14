@@ -470,6 +470,13 @@ INSERT INTO downloads VALUES(98,'revista',1,'https://www.scribd.com/document/369
 INSERT INTO downloads VALUES(99,'revista',1,'https://www.scribd.com/document/369084035/Level-2005-11');
 INSERT INTO downloads VALUES(100,'revista',1,'https://www.scribd.com/document/369082378/Level-2005-12-pdf');
 INSERT INTO downloads VALUES(100,'extra',1,'https://www.scribd.com/document/369084985/Level-2005-12-Civilization-IV-intro-pdf');
+INSERT INTO downloads VALUES(213,'CD',1,'http://www.mediafire.com/file/4l2r16m31201n4y/GO_10_CoverCD.7z');
+INSERT INTO downloads VALUES(214,'CD',1,'http://www.mediafire.com/file/67u369kg3wyrbwk/GO_11_CoverCD.7z');
+INSERT INTO downloads VALUES(215,'CD',1,'http://www.mediafire.com/file/43ac0wsk7h7prpu/GO_12_CoverCD.7z');
+INSERT INTO downloads VALUES(216,'CD',1,'http://www.mediafire.com/file/iru7ncwvj9m9l9t/GO_13_CoverCD.7z');
+INSERT INTO downloads VALUES(217,'CD',1,'http://www.mediafire.com/file/ilpali3n031tm2b/GO_14_CoverCD.7z');
+INSERT INTO downloads VALUES(218,'CD',1,'http://www.mediafire.com/file/fs483hoe2bb3u67/GO_15_CoverCD.7z');
+INSERT INTO downloads VALUES(219,'CD',1,'http://www.mediafire.com/file/x1y4sry35a1tsan/GO_16_CoverCD.7z');
 INSERT INTO articole VALUES(1,7,'Level',1,1997,9,'',1,2,2,'Cuprins CD/DVD','','','','');
 INSERT INTO articole VALUES(2,7,'Level',1,1997,9,'',1,3,1,'Chestionar','Chestionar LEVEL','','','');
 INSERT INTO articole VALUES(3,7,'Level',1,1997,9,'',1,4,1,'Cheats','','','','');
