@@ -51,7 +51,7 @@ INSERT INTO editii VALUES(26,7,'revista',NULL,25,1999,10,'',34000,100,'CD (1)',N
 INSERT INTO editii VALUES(27,7,'revista',NULL,26,1999,11,'',34000,100,'CD (1)',NULL,'Mr. President','','',100,NULL,'','Cristan');
 INSERT INTO editii VALUES(28,7,'revista',NULL,27,1999,12,'',34000,100,'CD (1)',NULL,'Claude','','',100,NULL,'MQ - rescan, recrop','Jaunty');
 INSERT INTO editii VALUES(29,7,'revista',NULL,28,2000,1,'',34000,100,'CD (1)',NULL,'Claude','','',100,NULL,'MQ - rescan, recrop','mac85');
-INSERT INTO editii VALUES(30,7,'revista',NULL,29,2000,2,'',34000,84,'CD (1)',NULL,'Claude','','',84,'30,72','MQ - rescan, recrop','Jaunty');
+INSERT INTO editii VALUES(30,7,'revista',NULL,29,2000,2,'',34000,84,'CD (1)',NULL,'Claude','','',84,NULL,'MQ - rescan, recrop','Jaunty');
 INSERT INTO editii VALUES(31,7,'revista',NULL,30,2000,3,'',34000,84,'CD (1)',NULL,'Claude','','',84,NULL,'','Cristan');
 INSERT INTO editii VALUES(32,7,'revista',NULL,31,2000,4,'',34000,84,'CD (1)',NULL,'Claude','','',84,NULL,'','mac85');
 INSERT INTO editii VALUES(33,7,'revista',NULL,32,2000,5,'',34000,84,'CD (1)',NULL,'Claude','','',84,NULL,'','mac85');
