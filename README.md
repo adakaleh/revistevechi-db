@@ -4,7 +4,9 @@
 
 Folosită în proiectele:
 - https://github.com/adakaleh/revistevechi-wiki-scripts
+  - https://wiki.candaparerevista.ro/
 - https://github.com/cristan2/ArhivaRevisteVechi
+  - http://arhiva.candaparerevista.ro/
 
 Baza de date se generează cu:
 ```
