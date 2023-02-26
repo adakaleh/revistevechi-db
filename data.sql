@@ -8150,7 +8150,7 @@ INSERT INTO articole VALUES(7632,7,'Level',173,2012,1,'',172,46,2,'Review','Lord
 INSERT INTO articole VALUES(7633,7,'Level',173,2012,1,'',172,48,6,'Review','Star Wars: The Old Republic','','Koniec','80');
 INSERT INTO articole VALUES(7634,7,'Level',173,2012,1,'',172,54,2,'Review','Minecraft','','Paul Policarp','80');
 INSERT INTO articole VALUES(7635,7,'Level',173,2012,1,'',172,56,2,'Review','Need for Speed: The Run','','Koniec','50');
-INSERT INTO articole VALUES(7636,7,'Level',173,2012,1,'',172,58,6,'Review','The Legend of Zelda: Skyward Sword','','ncv','10');
+INSERT INTO articole VALUES(7636,7,'Level',173,2012,1,'',172,58,8,'Review','The Legend of Zelda: Skyward Sword','','ncv','10');
 INSERT INTO articole VALUES(7637,7,'Level',173,2012,1,'',172,66,2,'Review','Jurassic Park','','Cosmin Aioniţă','68');
 INSERT INTO articole VALUES(7638,7,'Level',173,2012,1,'',172,68,2,'Review','Might & Magic: Clash of Heroes','','Caleb','85');
 INSERT INTO articole VALUES(7639,7,'Level',173,2012,1,'',172,70,3,'Review','The Book of Unwritten Tales','','ncv','92');
