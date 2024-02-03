@@ -3,6 +3,8 @@
 - updates links cu proiectele care folosesc DB reviste
 - adaugat cuprins articole si downloads Level 2013-12
 - adaugat editii, articole si downloads Nivelul 2
+- adaugat reviste, editii si downloads NXT LVL si GRIND
+- updates info reviste - status aparitie, descrieri 
 - schimbat datatype pentru pret editii din numeric in text
 - creat changelog si completat retroactiv
 - creat fisiere VERSION si TODO
