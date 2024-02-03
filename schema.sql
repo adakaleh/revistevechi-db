@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS "editii" (
 	`an`	INTEGER NOT NULL,
 	`luna`	INTEGER NOT NULL,
 	`luna_sfarsit`	TEXT,
-	`pret`	NUMERIC,
+	`pret`	TEXT,
 	`nr_pagini`	INTEGER,
 	`disc_demo`	TEXT,
 	`joc_complet`	TEXT,
