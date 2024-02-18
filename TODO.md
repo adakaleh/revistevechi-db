@@ -1,7 +1,6 @@
-
 # Editii
 ## Nivelul 2
-[ ] de inlocuit linkurile de download cu linkuri directe catre pdf, dupa ce site-ul va suporta afisarea separata a linkurilor catre pagina revistei
+- [ ] de inlocuit linkurile de download cu linkuri directe catre pdf, dupa ce site-ul va suporta afisarea separata a linkurilor catre pagina revistei
     ```
         INSERT INTO downloads VALUES(221,'revista',1,'https://nivelul2.ro/wp-content/uploads/2021/04/NIVELUL2_NR1_Digital_redus.pdf');
         INSERT INTO downloads VALUES(222,'revista',1,'https://nivelul2.ro/wp-content/uploads/2021/04/NIVELUL2_NR2_Digital-redus.pdf');
@@ -14,13 +13,10 @@
 
 # Articole
 ## Level
-[ ] unele sectiuni Free2Play nu au titlurile jocurilor (ex: 2013.10)
-[ ] 2013.11: la Joc Full (Coperta) trebuie 'Overworld II' in loc de 'Overworld'
+- [ ] unele sectiuni Free2Play nu au titlurile jocurilor (ex: 2013.10)
 
 # Repo
-[ ] script pentru release nou care sa:
-  [ ] updateze VERSION si CHANGELOG
-  [ ] genereze fisier .db versionat
-  [ ] creat release nou in git
-
-
+- [ ] script pentru release nou care sa:
+  - [ ] updateze VERSION si CHANGELOG
+  - [ ] genereze fisier .db versionat
+  - [ ] creat release nou in git
