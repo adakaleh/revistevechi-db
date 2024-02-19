@@ -127,7 +127,7 @@ INSERT INTO editii VALUES(99,7,'revista',NULL,98,2005,11,'','13.5',84,'CD (3)','
 INSERT INTO editii VALUES(100,7,'revista',NULL,99,2005,12,'','13.5',84,'CD (3)','Scrapland','Mitza','','',84,NULL,'GQ - recrop','Cristan');
 INSERT INTO editii VALUES(101,7,'revista',NULL,100,2006,1,'','13.5',100,'DVD (1)','Richard Burns Rally','Mitza','',replace('(Comentariu forum la nr. 101): Numerotarea nu include numărul din mai ''98, care nu a apărut. Aceasta este şi numerotarea oficială, după cum puteţi vedea în numerele imediat următoare. Opt ani mai târziu, nişte redactori puşi pe şotii au scris pe coperta numărului 100 cum că ar fi numărul 101, Marius Ghinea dând următoarea motivaţie pe forum:\n\n"Ce scuze? Ce explicatii? Nu e nici o greseala, noi am facut-o anume...\nCe stiti voi despre acel numar care a existat, dar nu a aparut?\nNimic.\nVa ramine un mister, ceva despre care se va vorbi peste generatii ca despre Sfintul Graal.\nRepet pentru buna fixare in memoria afectiva a celor care ne iubesc, ne urasc, sau sint indiferenti relativ la noi. Adica a tuturor. Acel numar "lipsa" a existat, dar nu a aparut.\n101 este corect, dar intr-o cheie oculta, numai pentru cei care stiu, au vazut, au mirosit si chiar au pus mina la scrierea Numarului Fantoma din Level.\nEste "1" din "101" cel care sporeste taina celor ce sint Level...\nCinste celui care a vazut CĂ nu e, si nemurire glorioasa celor putini care au făcut CE nu e!"\n\nhttp://forum.level.ro/showthread.php?134853-Level-a-ajuns-defapt-la-numarul-100-nu-la-101&p=2837482&viewfull=1#post2837482\n\nEu nu-l cred până nu văd numărul respectiv. :p','\n',char(10)),100,NULL,'GQ - recrop','Cristan');
 INSERT INTO editii VALUES(102,7,'revista',NULL,101,2006,2,'','13.5',84,'DVD (1)','Hitman: Codename 47','Mitza','','',84,NULL,'GQ - recrop','Cristan');
-INSERT INTO editii VALUES(103,7,'revista',NULL,102,2006,3,'','13.5',84,'DVD (1)','X²: The Threat','Mitza','','',84,NULL,'GQ - recrop','Cristan');
+INSERT INTO editii VALUES(103,7,'revista',NULL,102,2006,3,'','13.5',84,'DVD (1)','X2: The Threat','Mitza','','',84,NULL,'GQ - recrop','Cristan');
 INSERT INTO editii VALUES(104,7,'revista',NULL,103,2006,4,'','13.5',84,'DVD (1)','ARX Fatalis','Mitza','','',84,NULL,'GQ - recrop','Cristan');
 INSERT INTO editii VALUES(105,7,'revista',NULL,104,2006,5,'','13.5',84,'DVD (1)','Singles - Flirt up your life!','Mitza','','',84,NULL,'GQ - recrop','Cristan');
 INSERT INTO editii VALUES(106,7,'revista',NULL,105,2006,6,'','13.5',84,'DVD (1)','SpellForce: The Order of Dawn ','Mitza','','',84,NULL,'GQ - recrop','Cristan');
@@ -152,7 +152,7 @@ INSERT INTO editii VALUES(124,7,'revista',NULL,123,2007,12,'','13.5',84,'DVD (1)
 INSERT INTO editii VALUES(125,7,'revista',NULL,124,2008,1,'','13.5',84,'DVD (1)','Painkiller: Black Edition',NULL,'','',67,'2-5, 28-29, 62-63, 68-69, 78-84','PDF oficial w/ crop marks','LEVEL');
 INSERT INTO editii VALUES(126,7,'revista',NULL,125,2008,2,'','13.5',84,'DVD (1)','SpellForce 2: Gold Edition','Locke','','',84,NULL,'PDF oficial w/ crop marks','LEVEL');
 INSERT INTO editii VALUES(127,7,'revista',NULL,126,2008,3,'','13.5',84,'DVD (1)','Earth 2160','Locke','','',83,'69','PDF oficial w/ crop marks','LEVEL');
-INSERT INTO editii VALUES(128,7,'revista',NULL,127,2008,4,'','14.99',100,'DVD (1)','X³: Reunion','KiMO','','',100,NULL,'PDF oficial','LEVEL');
+INSERT INTO editii VALUES(128,7,'revista',NULL,127,2008,4,'','14.99',100,'DVD (1)','X3: Reunion','KiMO','','',100,NULL,'PDF oficial','LEVEL');
 INSERT INTO editii VALUES(129,7,'revista',NULL,128,2008,5,'','14.99',100,'DVD (1)','KnightShift','KiMO','','',100,NULL,'PDF oficial','LEVEL');
 INSERT INTO editii VALUES(130,7,'revista',NULL,129,2008,6,'','14.99',100,'DVD (1)','Disciples II: Gold Edition','KiMO','','',100,NULL,'PDF oficial w/ crop marks','LEVEL');
 INSERT INTO editii VALUES(131,7,'revista',NULL,130,2008,7,'','14.99',100,'DVD (1)','Broken Sword: The Sleeping Dragon','KiMO','','',99,'2','PDF oficial w/ crop marks','LEVEL');
@@ -213,7 +213,7 @@ INSERT INTO editii VALUES(186,7,'revista',NULL,184,2013,3,'','14.99',100,'DVD (1
 INSERT INTO editii VALUES(187,7,'revista',NULL,185,2013,4,'','15.98',100,'DVD (1)','Just Cause','KiMO','','',100,NULL,'GQ - recrop','Cristan');
 INSERT INTO editii VALUES(188,7,'revista',NULL,186,2013,5,'2013.06','15.98',100,'DVD (1)','Deus Ex: Human Revolution','KiMO','','',100,NULL,'GQ - recrop','Cristan');
 INSERT INTO editii VALUES(189,7,'revista',NULL,187,2013,7,'','15.98',100,'DVD (1)','Supreme Commander 2, Hacker Evolution Duality','KiMO','','',100,NULL,'GQ - recrop','Cristan');
-INSERT INTO editii VALUES(190,7,'revista',NULL,188,2013,8,'','15.98',100,'DVD (1)','Kane & Lynch: Dead Man','KiMO','','',100,NULL,'GQ - recrop','Cristan');
+INSERT INTO editii VALUES(190,7,'revista',NULL,188,2013,8,'','15.98',100,'DVD (1)','Kane & Lynch: Dead Men','KiMO','','',100,NULL,'GQ - recrop','Cristan');
 INSERT INTO editii VALUES(191,7,'revista',NULL,189,2013,9,'','15.98',100,'DVD (1)','Operation Flashpoint: Dragon Rising','KiMO','','',100,NULL,'GQ - recrop','Cristan');
 INSERT INTO editii VALUES(192,7,'revista',NULL,190,2013,10,'','15.98',100,'DVD (1)','Race: Injection','KiMO','','',100,NULL,'GQ - recrop','Cristan');
 INSERT INTO editii VALUES(193,7,'revista',NULL,191,2013,11,'','15.98',100,'DVD (1)','Overlord II','KiMO','','',100,NULL,'GQ - recrop','Cristan');
@@ -3543,7 +3543,7 @@ INSERT INTO articole VALUES(2994,7,'Level',78,2004,2,'',77,36,4,'Review','Deus E
 INSERT INTO articole VALUES(2995,7,'Level',78,2004,2,'',77,40,2,'Review','The Simpsons: Hit & Run','','Koniec','66');
 INSERT INTO articole VALUES(2996,7,'Level',78,2004,2,'',77,42,1,'Review','Corvette','','Sebah','64');
 INSERT INTO articole VALUES(2997,7,'Level',78,2004,2,'',77,43,1,'Review','Teenage Mutant Ninja Turtles','','Koniec','61');
-INSERT INTO articole VALUES(2998,7,'Level',78,2004,2,'',77,44,6,'Review','X²: The Threat','','Locke','86');
+INSERT INTO articole VALUES(2998,7,'Level',78,2004,2,'',77,44,6,'Review','X2: The Threat','','Locke','86');
 INSERT INTO articole VALUES(2999,7,'Level',78,2004,2,'',77,50,2,'Review','Armed & Dangerous','','Mitza','66');
 INSERT INTO articole VALUES(3000,7,'Level',78,2004,2,'',77,52,3,'Joc Complet','Shadow Man','','Marius Ghinea','');
 INSERT INTO articole VALUES(3001,7,'Level',78,2004,2,'',77,57,1,'Console','Max Payne | GBA','','cioLAN','5|5');
@@ -5505,7 +5505,7 @@ INSERT INTO articole VALUES(4956,7,'Level',125,2008,1,'',124,42,3,'Review','Need
 INSERT INTO articole VALUES(4957,7,'Level',125,2008,1,'',124,46,2,'Review','Guitar Hero 3: Legends of Rock','','Zuluf','90');
 INSERT INTO articole VALUES(4958,7,'Level',125,2008,1,'',124,48,2,'Review','Gears of War','','KiMO','93');
 INSERT INTO articole VALUES(4959,7,'Level',125,2008,1,'',124,50,1,'Review','Empire Earth 3','','Locke','35');
-INSERT INTO articole VALUES(4960,7,'Level',125,2008,1,'',124,52,4,'Review','Kane & Lynch: Dead Man','','cioLAN','73');
+INSERT INTO articole VALUES(4960,7,'Level',125,2008,1,'',124,52,4,'Review','Kane & Lynch: Dead Men','','cioLAN','73');
 INSERT INTO articole VALUES(4961,7,'Level',125,2008,1,'',124,56,2,'Console','Timeshift | Xbox 360','','KiMO','3|5');
 INSERT INTO articole VALUES(4962,7,'Level',125,2008,1,'',124,58,3,'Retro','Syndicate','','cioLAN','');
 INSERT INTO articole VALUES(4963,7,'Level',125,2008,1,'',124,63,1,'MMO','World of Warcraft - File de Poveste','','','');
@@ -5620,7 +5620,7 @@ INSERT INTO articole VALUES(5072,7,'Level',127,2008,3,'',126,77,2,'Bistro dell''
 INSERT INTO articole VALUES(5073,7,'Level',127,2008,3,'',126,81,1,'Patch','','','','');
 INSERT INTO articole VALUES(5074,7,'Level',128,2008,4,'',127,3,1,'Editorial','LEVELuţia a început','','Locke','');
 INSERT INTO articole VALUES(5075,7,'Level',128,2008,4,'',127,6,1,'Cuprins CD/DVD','','','','');
-INSERT INTO articole VALUES(5076,7,'Level',128,2008,4,'',127,7,1,'Joc Complet','X³: Reunion','','','');
+INSERT INTO articole VALUES(5076,7,'Level',128,2008,4,'',127,7,1,'Joc Complet','X3: Reunion','','','');
 INSERT INTO articole VALUES(5077,7,'Level',128,2008,4,'',127,10,3,'News','','','','');
 INSERT INTO articole VALUES(5078,7,'Level',128,2008,4,'',127,14,4,'Interviu','EA Los Angeles - Tiberium','','KiMO','');
 INSERT INTO articole VALUES(5079,7,'Level',128,2008,4,'',127,18,2,'Special','Concept art şi Gaming (II)','','Zuluf','');
